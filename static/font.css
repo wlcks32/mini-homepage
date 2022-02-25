@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'HS-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HS-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'LeferiPoint-BlackA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .왼쪽공간 span {
+    color: red;
+  }
+
+  .방문기록 {
+    font-family:'CookieRun-Regular';
+    font-size: 12px;
+  }
+
+  .왼쪽상자 {
+    font-size: 12px;
+  }
+
+  .프사{
+    font-size: 13px;
+    font-family: 'HS-Regular'
+  }
+
+  .소개 {
+    font-size: 12px;
+    font-weight: bolder;
+    font-family:'CookieRun-Regular';
+  }
+
+  .이름{font-size: 15px;}
+
+  .파도타기 {
+    font-size: 12px;
+    font-weight: bolder;
+    font-family:'CookieRun-Regular';
+  }
+
+  .제목{color: rgb(41, 130, 189);
+    font-family: 'LeferiPoint-BlackA'}
+
+  .뉴스_left {
+    font-family: 'Cafe24Ssurround';
+    font-size: 15px;
+  }
+
+  .뉴스_right1{
+    font-size: 12px;
+    font-family: 'Cafe24Ssurround';
+  }
+  
+
+  .뉴스_right2{
+    font-size: 12px;
+    font-family: 'Cafe24Ssurround';
+  }
+
+  .메모{
+    color: rgb(41, 130, 189);
+    font-family: 'LeferiPoint-BlackA'}
+
+  .파란색{color:aqua}
+
+  .오른쪽공간 {
+    font-size:11px;
+    font-weight: bold;
+  }
+
+  .메뉴-홈, .메뉴-다이어리, .메뉴-사진첩, .메뉴-방명록{
+    background-color: rgb(136, 186, 252);
+    border-radius: 0px 10px 10px 0px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family:'CookieRun-Regular';
+  }
+
+  .메뉴 a:link{color: rgb(255, 255, 255);}
+  .메뉴 a:visited{color: rgb(255, 251, 231);}
+  .메뉴 div:hover{background-color: rgb(24, 84, 250);}
+
+  .사진첩{font-family:'LeferiPoint-BlackA';}
+
+  .귀칼-제목{font-size: 19px;}
+  .귀칼-소개{font-size: 13px;}
+
+  .원펀-제목{font-size: 19px;}
+  .원펀-소개{font-size: 13px;}
+
+  .거짓말-제목{font-size: 19px;}
+  .거짓말-소개{font-size: 13px;}
