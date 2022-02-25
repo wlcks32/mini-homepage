@@ -1,0 +1,154 @@
+
+.왼쪽공간 {
+    display: flex;
+    flex: 0.2;
+    flex-direction: column;
+    margin-right: 22px;
+  }
+
+  .방문기록 {
+    text-align: center;
+    padding: 10px 0px;
+  }
+  
+  .왼쪽상자 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    width: 195px; 
+    height: 530px;
+  }
+  
+  .프사{flex: 0.6;
+    margin: 30px 15px;
+}
+  
+  .이름{
+    margin-top: 220px;
+    margin-left: 10px;
+}
+  
+ .파도타기 {
+   margin-top: 10px;
+  width: 165px;
+ 
+}
+
+  .가운데공간{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+   
+  .소개 {
+    display: flex;
+    padding: 10px;
+  }
+  
+  .주소{
+    padding-left: 30%;
+    flex:1;
+  }
+  
+  .가운데상자 {
+    background: white;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    width: 560px; height: 530px;
+    padding-left: 20px;
+    flex-direction:row;
+    flex:1;
+  }
+  
+  .가운데{
+  margin: 30px 10px;
+  display: flex;
+  flex: 0.5; 
+  flex-direction: column;}
+  
+      
+  .오른쪽공간 {
+    display: flex;
+    flex: 0.3;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  
+  
+  .뉴스_left {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .빨강{
+    display: inline-block;
+    color: whitesmoke;
+    background-color:rgb(255, 40, 24);
+    border-radius: 3px;
+    margin-left: 10px;
+    padding:0px 7px;
+  }
+  
+  .파랑{
+    display: inline-block;
+    color: white;
+    background-color: royalblue;
+    border-radius: 3px;
+    margin-left: 10px;
+    padding:0px 7px;
+  }
+  
+  
+  
+  .뉴스_right1{
+    display: flex;
+    flex-direction:row;
+    width: 180px;
+    border-bottom: 1px dotted gray;
+    margin-top: -50px;
+    margin-left: 330px;
+  }
+  
+  
+  .뉴스_right1_1{
+    flex:1;}
+  
+  .뉴스_right1_2 {
+    flex:1;}
+  
+  .뉴스_right2{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px dotted gray;
+    width: 180px;
+    margin-top: 5px;
+    margin-left: 330px;
+  }
+  
+  
+  .뉴스_right2_1{
+    flex:1;}
+  
+  .뉴스_right2_2 {
+    flex:1;}
+  
+  
+  .메모{margin-top: 30px;
+ }
+  
+  
+  .line1{
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+  }
+  
+  .바다{
+    margin-top: 20px; 
+    margin-left: 5px; 
+    width: 520px;
+  }
