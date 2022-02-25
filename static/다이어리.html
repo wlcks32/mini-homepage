@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2022 MINI HOMEPAGE</title>
+    <link rel="stylesheet" href="./static/font.css" />
+    <link rel="stylesheet" href="./static/layout.css">
+    <link rel="stylesheet" href="./static/home.css">
+    <link rel="stylesheet" href="./static/photo.css">
+    <link rel="stylesheet" href="./static/diary.css">
+    <script src="https://kit.fontawesome.com/47e30f63b8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  <div class="bookcover">
+  <div class="선">
+  <div class="바탕">
+  <div class="왼쪽공간">
+  <div class="방문기록">TODAY <span>915</span> | TOTAL 9991</div>
+  <div class="왼쪽상자">
+  <div class="프사">
+  <img src="./static/images/눈뭉.jpg" alt="ㅠㅠ" width="170px">
+   나는 "특별"한 사람이고 싶었는데<br>
+   이젠 "특별"이 아닌 "평범"도 하기<br>
+   힘들게 되었구나...<br>
+   <br><br>
+   언제부터 이렇게... 망가진거야?
+  <div class="이름">정지찬</div>
+  <select class="파도타기">
+  <option value="none" selected disabled hidden>파도타기</option>
+  <option value="블로그"><a href="https://section.blog.naver.com/">블로그</a></option>
+  <option value="인스타그램"><a href="https://www.instagram.com/">인스타그램</a></option>
+  </select>
+  </div>
+  </div>
+  </div>
+  <div class="가운데공간">
+  <div class="소개">
+  <div class="소개-intro">지찬의 미니홈피</div>
+  <div class="주소">https:www.추가예정</div>
+  </div>
+  <div class="가운데상자">
+  <div class="가운데">
+  <div class="다이어리공간">
+  <div class="달력공간">
+  <div class="오늘">02.21 MON</div>
+  <div class="달력">
+  <div class="평일">1</div>
+  <div class="평일">2</div>
+  <div class="평일">3</div>
+  <div class="평일">4</div>
+  <div class="토">5</div>
+  <div class="일">6</div>
+  <div class="평일">7</div>
+  <div class="평일">8</div>
+  <div class="평일">9</div>
+  <div class="평일">10</div>
+  <div class="평일">11</div>
+  <div class="토">12</div>
+  <div class="일">13</div>
+  <div class="평일">14</div>
+  <div class="평일">15</div>
+  <div class="평일">16</div>
+  <div class="평일">17</div>
+  <div class="평일">18</div>
+  <div class="토">19</div>
+  <div class="일">20</div>
+  <div class="평일">21</div>
+  <div class="평일">22</div>
+  <div class="평일">23</div>
+  <div class="평일">24</div>
+  <div class="평일">25</div>
+  <div class="토">26</div>
+  <div class="일">27</div>
+  <div class="평일">28</div>
+  </div>
+  </div>
+  <div class="다이어리박스">
+  <div class="다이어리공간">
+  <div class="제목">2022.02.14 월 02:22</div>
+  <div class="글">
+  <p>나라는 괴물<br><br><br>
+  .<br>
+  .<br>
+  .<br><br><br>
+  과연 끝이 어딜까..?</p>
+  </div></div>
+  <div class="다이어리공간">
+  <div class="제목">2022.02.15 화 00:25</div>
+  <div class="글">
+  <p>하루만 못생겨지고 싶다<br><br><br>
+  .<br>
+  .<br>
+  .<br><br><br>
+  이젠 물려..</p>
+  </div>
+  </div>
+ <button class="다이어리버튼"id="button"onclick="getTextFile()">
+  <i class="fa-solid fa-lock"></i>비밀일기</button>
+  <div class="다이어리공간"id="secret-box">
+ <div class="제목">비밀 일기</div>
+ <div class="글"id="secret-diary"></div>
+    <script>
+    function getTextFile() {
+    var input = document.createElement("input");
+    input.type = "file";
+    input.accept = "text/plain";
+    input.onchange = function (event) {
+      processFile(event.target.files[0]);
+    };
+    input.click();
+  }
+
+  function processFile(file) {
+    var reader = new FileReader();
+    reader.readAsText(file, "utf-8");
+
+    reader.onload = function () {
+      document.getElementById("secret-diary").innerText = reader.result;
+      document.getElementById("secret-box").style.display = "block";
+    };
+  }
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="오른쪽공간">
+<div class="메뉴">
+<div class="메뉴-홈"onclick="location.href='./홈.html'">홈</a></div>
+<div class="메뉴-다이어리"onclick="location.href='./다이어리.html'">다이어리</a></div>
+<div class="메뉴-사진첩"onclick="location.href='./사진첩.html'">사진첩</a></div>
+<div class="메뉴-방명록"onclick="location.href='./방명록.html'">방명록</a></div>
+</dis>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
